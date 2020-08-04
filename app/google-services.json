@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "732993113028",
+    "firebase_url": "https://insan-muda-app.firebaseio.com",
+    "project_id": "insan-muda-app",
+    "storage_bucket": "insan-muda-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:732993113028:android:6bff96a630a1e873713291",
+        "android_client_info": {
+          "package_name": "com.lailatul.bimbel"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "732993113028-rtd62vngjm6kgvknrqrlkri9ecnbivm6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.lailatul.bimbel",
+            "certificate_hash": "c50f7f0d78e3f7c9b30fb767e3ba3a8c3976795b"
+          }
+        },
+        {
+          "client_id": "732993113028-3ujb0t47hogds1haajsofm9dd6dnh7dn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBxG4CNjSFXb0nVa1dIdDZzPWvsivQ8fxM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "732993113028-3ujb0t47hogds1haajsofm9dd6dnh7dn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

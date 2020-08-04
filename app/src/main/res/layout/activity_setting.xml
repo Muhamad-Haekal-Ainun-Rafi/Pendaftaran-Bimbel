@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+
+    android:padding="10dp"
+    tools:context="com.lailatul.bimbel.Setting.SettingActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="SETTING ACCOUNT"
+                    android:textAlignment="center"
+                    android:textColor="@color/putih"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="30dp">
+
+                    <TableRow android:layout_width="match_parent">
+
+                        <TextView
+                            android:layout_width="1dp"
+                            android:layout_height="wrap_content"
+                            android:text="Email"
+                            android:textSize="20sp" />
+
+                        <TextView
+                            android:id="@+id/setting_email"
+                            android:layout_width="222dp"
+                            android:layout_height="wrap_content"
+                            android:text="Email"
+                            android:textSize="20sp" />
+                    </TableRow>
+
+                    <TableRow android:layout_width="match_parent">
+
+                        <TextView
+                            android:layout_width="158dp"
+                            android:layout_height="wrap_content"
+                            android:text="Nama"
+                            android:textSize="20sp" />
+
+                        <EditText
+                            android:id="@+id/setting_nama"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="Nama"
+                            android:textSize="20sp" />
+                    </TableRow>
+
+                </TableLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="160dp"
+                        android:layout_height="wrap_content"
+                        android:text="Alamat"
+                        android:textSize="20sp" />
+
+                    <EditText
+                        android:id="@+id/setting_alamat"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Alamat"
+                        android:textSize="20sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Asal Sekolah         "
+                        android:textSize="20sp" />
+
+                    <EditText
+                        android:id="@+id/setting_sekolah"
+                        android:layout_width="214dp"
+                        android:layout_height="wrap_content"
+                        android:hint="Asal Sekolah"
+                        android:textSize="20sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="160dp"
+                        android:layout_height="wrap_content"
+                        android:text="Tanggal Lahir            "
+                        android:textSize="20sp" />
+
+                    <EditText
+                        android:id="@+id/setting_tgl"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Tanggal Lahir"
+                        android:inputType="date"
+                        android:textSize="20sp" />
+                </LinearLayout>
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/setting_foto"
+                    android:layout_width="165dp"
+                    android:layout_height="181dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/ic_launcher_foreground"
+                    app:civ_border_color="#FF000000"
+                    app:civ_border_width="1dp" />
+
+                <Button
+                    android:id="@+id/btn_upload_akun"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="@color/putih"
+                    android:text="UPLOAD"
+                    android:textColor="@color/hitam" />
+
+                <LinearLayout
+                    android:layout_width="331dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:orientation="horizontal"
+                    android:paddingTop="40dp">
+
+                    <Button
+                        android:id="@+id/btn_cancel_akun"
+                        android:layout_width="140dp"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="25dp"
+
+                        android:background="@color/putih"
+                        android:text="KEMBALI"
+                        android:textColor="@color/hitam"
+                        android:textSize="18sp" />
+
+                    <Button
+                        android:id="@+id/btn_save_akun"
+                        android:layout_width="140dp"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="5dp"
+                        android:background="@color/putih"
+
+                        android:text="SIMPAN"
+                        android:textColor="@color/hitam"
+                        android:textSize="18sp" />
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

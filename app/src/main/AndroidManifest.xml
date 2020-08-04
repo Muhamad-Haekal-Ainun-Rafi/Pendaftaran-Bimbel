@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.lailatul.bimbel">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/icon_mk1"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/icon_mk1"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Setting.SettingActivity" />
+        <activity android:name=".Program.ProgramActivity" />
+        <activity android:name=".Pendaftaran.PendaftaranListActivity" />
+        <activity android:name=".Pendaftaran.HariListActivity" />
+        <activity android:name=".Mentor.MentorActivity" />
+        <activity android:name=".Pendaftaran.PendaftaranActivity" />
+        <activity android:name=".Menu.MenuActivity" />
+        <activity android:name=".Login.Sign_Up_Activity" />
+        <activity android:name=".Login.LoginActivity" />
+        <activity android:name=".Splash_screen.SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

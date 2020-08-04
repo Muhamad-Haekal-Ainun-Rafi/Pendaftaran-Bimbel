@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Bimbel Insan Muda Kreatif</string>
+    <string name="login">Login</string>
+    <string name="paket_sma_ipa">PAKET SMA (IPA)</string>
+    <string name="paket_sma_ips">PAKET SMA (IPS)</string>
+    <string name="daftar">DAFTAR</string>
+    <string name="masukan_nama_panggilan">Masukan Nama Panggilan</string>
+    <string name="alamat">Alamat</string>
+    <string name="masukan_nama_lengkap">Masukan Nama Lengkap</string>
+    <string name="nama_lengkap">Nama Lengkap</string>
+    <string name="provinsi">Provinsi</string>
+    <string name="masukan_provinsi">Masukan Provinsi</string>
+    <string name="asal_sekolah">Asal Sekolah</string>
+    <string name="masukan_asal_sekolah">Masukan Asal Sekolah</string>
+    <string name="paket_smp_untuk_kelas_1_3">PAKET SMP (UNTUK KELAS 1-3)</string>
+    <string name="paket_sd_untuk_kelas_1_6">PAKET SD (UNTUK KELAS 1-6)</string>
+    <string name="pilih_paket_bimbel">Pilih Paket Bimbel</string>
+    <string name="kabupaten_kota">Kabupaten/Kota</string>
+    <string name="jenis_kelamin">Jenis Kelamin</string>
+    <string name="nama_panggilan">Nama Panggilan</string>
+    <string name="masukan_no_telpon">Masukan No Telpon</string>
+    <string name="masukan_alamat">Masukan Alamat</string>
+    <string name="no_telpon">No Telpon</string>
+    <string name="masukan_nama_ayah">Masukan Nama Ayah</string>
+    <string name="nama_ayah">Nama Ayah</string>
+    <string name="tt_bb_tttt">TT/BB/TTTT</string>
+    <string name="masukan_kabupaten_kota">Masukan Kabupaten/Kota</string>
+    <string name="perempuan">Perempuan</string>
+    <string name="tanggal_lahir">Tanggal Lahir</string>
+    <string name="laki_laki">Laki-Laki</string>
+    <string name="tx_sd">Didalam PAKET SD peserta bimbel akan mendapatkan bimbingan materi berhitung dan Matematika dasar, pendalaman materi tentang Ilmu Pengetahuan Alam dan Kebahasaan tentunya dengan ditemani oleh mentor-mentor yang berpengalaman pada bidangnya.</string>
+    <string name="tx_smp">Paket pembelajaran yang tersedia untuk sekolah tingkat menengah yaitu pendalaman materi untuk mata pelajran Matematika, IPA terpadu dan Matematika. semua materi tersebut akan disampaikan oleh mentor-mentor pilihan yang ahli pada bidangnya.</string>
+    <string name="tx_ipa">Paket pembelajaran untuk kelas IPA yaitu mencakup mata pelajaran Fisika, Kimia, Matematika dan Bahasa Inggris, proses pembelajaran akan dilakukan secara interaktif dengan berbagai modul praktikum untuk mempermudah peserta bimbel memahami materi pembelajaran.</string>
+    <string name="tx_ips">Paket pembelajaran untuk jurusan IPS mencakup mata pelajaran Ekonomi, Geografi, Matematika, dan Bahasa Inggris. Materi akan disampaikan oleh mentor-mentor yang berpengalaman serta dengan penyampaian yang interaktif akan mempermudah peserta bimbel dalam memahami materi pembelajaran.</string>
+</resources>
